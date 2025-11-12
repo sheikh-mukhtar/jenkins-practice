@@ -3,7 +3,7 @@ pipeline {
         label 'agent-1'
       }
     environment { 
-        COURSE = 'jenkins'
+        COURSE = 'jnkins'
     }
     options {
         timeout(time: 30, unit: 'MINUTES') 
